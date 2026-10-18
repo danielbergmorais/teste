@@ -4,7 +4,8 @@ Versão: 1.0
 Linguagem: Python
 
 1. Objetivo
-O programa tem como objetivo cadastrar o nome e a idade de um aluno e exibir os dados informados.
+O programa tem como objetivo cadastrar o nome, idade e matricula de um aluno 
+e exibir os dados informados.
 
 2. Requisitos
 Python 3 instalado no computador.
@@ -16,14 +17,19 @@ Editor de código para escrever e executar o programa.
 python
 nome = input("Digite o nome do aluno: ")
 idade = int(input("Digite a idade do aluno: "))
+matricula = input("Digite a matricula do aluno: ")
 
 print("\nDados do aluno")
 print("Nome:", nome)
 print("Idade:", idade, "anos")
+print("Matrícula:", nome)
+
 4. Funcionamento
 O programa solicita o nome do aluno.
 
 Em seguida, solicita a idade.
+
+E por fim o código de matricula.
 
 Por fim, exibe os dados cadastrados na tela.
 
