@@ -1,0 +1,40 @@
+Documentação de Programa — Exemplo
+Nome do programa: Sistema de Cadastro de Alunos
+Versão: 1.0
+Linguagem: Python
+
+1. Objetivo
+O programa tem como objetivo cadastrar o nome e a idade de um aluno e exibir os dados informados.
+
+2. Requisitos
+Python 3 instalado no computador.
+
+Editor de código para escrever e executar o programa.
+
+3. Código-fonte
+
+python
+nome = input("Digite o nome do aluno: ")
+idade = int(input("Digite a idade do aluno: "))
+
+print("\nDados do aluno")
+print("Nome:", nome)
+print("Idade:", idade, "anos")
+4. Funcionamento
+O programa solicita o nome do aluno.
+
+Em seguida, solicita a idade.
+
+Por fim, exibe os dados cadastrados na tela.
+
+5. Exemplo de execução
+
+text
+Digite o nome do aluno: João
+Digite a idade do aluno: 18
+
+Dados do aluno
+Nome: João
+Idade: 18 anos
+6. Conclusão
+O programa demonstra o uso de entrada de dados, variáveis e saída de informações em Python, servindo como exemplo básico para iniciantes em programação.
